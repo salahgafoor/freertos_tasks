@@ -3,6 +3,10 @@
 
 ### Eclipse ###
 .metadata
+.settings
+[Rr]elease
+[Dd]ebug
+
 bin/
 tmp/
 *.tmp
