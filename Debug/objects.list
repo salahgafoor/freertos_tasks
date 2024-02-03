@@ -3,7 +3,6 @@
 "./Core/Src/stm32g4xx_hal_timebase_tim.o"
 "./Core/Src/stm32g4xx_it.o"
 "./Core/Src/syscalls.o"
-"./Core/Src/sysmem.o"
 "./Core/Src/system_stm32g4xx.o"
 "./Core/Startup/startup_stm32g474retx.o"
 "./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o"
