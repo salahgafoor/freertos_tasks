@@ -21,6 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "stdio.h"
 #include "FreeRTOS.h"
 #include "task.h"
 /* USER CODE END Includes */
@@ -206,7 +207,7 @@ static void task1_handler(void* parameters)
 {
 	while(1)
 	{
-		printf("%s\n", (char*)parameters);
+		printf("%s\n", (char*)parameters); // use SWO to print the output
 	}
 }
 
@@ -214,7 +215,7 @@ static void task2_handler(void* parameters)
 {
 	while(1)
 	{
-		printf("%s\n", (char*)parameters);
+		printf("%s\n", (char*)parameters); // use SWO to print the output
 	}
 }
 /* USER CODE END 4 */
